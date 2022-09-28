@@ -16,13 +16,17 @@ const NavBar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/">Home</Link>
                             </li>
-                            <li className="nav-item"><Link className="nav-link" to="/business">Business</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/entertainment">Entertainment</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/general">General</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/health">Health</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
-                            <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
+                            <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Business">Business       </Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Entertainment">Entertainment</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Environment">Environment</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Food">Food</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Health">Health</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Politics">Politics</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Science">Science</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Sports">Sports</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Technology">Technology</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/Top">Top</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/World">World</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -33,3 +37,5 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+
